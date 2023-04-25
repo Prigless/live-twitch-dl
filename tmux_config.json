@@ -1,0 +1,8 @@
+{
+    "session_name": "live-twitch-dl",
+    "session_windows": {
+        "stream-dl": ". .venv/bin/activate && python3 twitch_stream_dl.py",
+        "chat-dl": ". .venv/bin/activate && python3 twitch_chat_dl.py",
+        "discord-bot": ". .venv/bin/activate && python3 auto_sending_discord_msg.py"
+    }
+}
